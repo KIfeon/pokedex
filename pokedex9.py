@@ -1,5 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageTk, ImageDraw, ImageOps
+from tkinter import ttk
 import requests
 import json
 import os
@@ -196,6 +197,9 @@ def get_pokemmo_shoutwiki_locations(nom_en):
 
 # ---- UI -----
 pokedex = charger_pokedex()
+suggestions = [
+    f"{p['num']:03d} - {p['nom_fr']} ({p['nom_en']})" for p in pokedex
+]
 IS_SHINY = [False]
 current_poke_idx = [0]
 poke_img_ref = [None]
@@ -371,10 +375,14 @@ def show_poke():
     txt_loc.config(state='disabled')
 
 def search_poke(event=None):
-    s = searchbox.get().lower()
+    s = search_var.get().lower()
+    if s == "🔍 rechercher par nom ou numéro...".lower():
+        return
     found = False
     for idx, p in enumerate(pokedex):
-        if s in p['nom_fr'].lower() or s in p['nom_en'].lower() or s == str(p['num']):
+        if (s in p['nom_fr'].lower() or s in p['nom_en'].lower() or
+                s == str(p['num']) or
+                s.split(" ")[0] == str(p['num'])):
             current_poke_idx[0] = idx
             IS_SHINY[0] = False
             update_shiny_btn()
@@ -382,21 +390,33 @@ def search_poke(event=None):
             found = True
             break
     if not found:
-        searchbox.config(bg="#ffd6d6")
+        searchbox.configure(foreground="red")
         tk.messagebox.showinfo("Introuvable", "Aucun Pokémon trouvé.")
     else:
-        searchbox.config(bg="white")
+        searchbox.configure(foreground="black")
     searchbox.focus_set()
 
 def clear_placeholder(event):
-    if searchbox.get() == "🔍 Rechercher par nom ou numéro...":
-        searchbox.delete(0, tk.END)
-        searchbox.config(fg="black")
+    if search_var.get() == "🔍 Rechercher par nom ou numéro...":
+        searchbox.set("")
+        searchbox.configure(foreground="black")
 
 def add_placeholder(event=None):
-    if not searchbox.get():
-        searchbox.insert(0, "🔍 Rechercher par nom ou numéro...")
-        searchbox.config(fg="#888")
+    if not search_var.get():
+        searchbox.set("🔍 Rechercher par nom ou numéro...")
+        searchbox.configure(foreground="#888")
+        searchbox['values'] = []
+
+def filter_suggestions(event=None):
+    text = search_var.get()
+    if text == "🔍 Rechercher par nom ou numéro..." or not text:
+        searchbox['values'] = []
+        return
+    t = text.lower()
+    vals = [v for v in suggestions if t in v.lower()]
+    searchbox['values'] = vals
+    if vals:
+        searchbox.event_generate('<Down>')
 
 # Localisations PokéMMO
 cadre_loc = tk.LabelFrame(mainzone, text="📍 Localisations PokéMMO", bg="#e3f1fa", fg="#29677b",
@@ -409,12 +429,15 @@ txt_loc = tk.Text(
 txt_loc.pack(padx=8, pady=8)
 txt_loc.config(state='disabled')
 
-searchbox = tk.Entry(mainzone, font=("Segoe UI", 14), width=24, fg="#888")
+search_var = tk.StringVar()
+searchbox = ttk.Combobox(mainzone, textvariable=search_var, font=("Segoe UI", 14), width=24)
 searchbox.place(x=350, y=300)
-searchbox.insert(0, "🔍 Rechercher par nom ou numéro...")
+searchbox.set("🔍 Rechercher par nom ou numéro...")
 searchbox.bind("<FocusIn>", clear_placeholder)
 searchbox.bind("<FocusOut>", add_placeholder)
+searchbox.bind("<KeyRelease>", filter_suggestions)
 searchbox.bind("<Return>", search_poke)
+searchbox.bind("<<ComboboxSelected>>", search_poke)
 
 # Affichage position/total
 label_pos = tk.Label(mainzone, text="", font=("Segoe UI", 11, "bold"), bg="#E4ECF9", fg="#496B9A")
@@ -477,3 +500,4 @@ searchbox.focus()
 add_placeholder()
 
 root.mainloop()
+

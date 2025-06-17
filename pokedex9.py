@@ -55,6 +55,30 @@ TYPE_ICONS = {
 }
 
 type_img_cache = {}
+
+# Relations de dégâts pour chaque type (défense)
+TYPE_DEFENSE = {
+    "Normal": {"weak": ["Fighting"], "resist": [], "immune": ["Ghost"]},
+    "Fire": {"weak": ["Water", "Ground", "Rock"], "resist": ["Fire", "Grass", "Ice", "Bug", "Steel", "Fairy"], "immune": []},
+    "Water": {"weak": ["Electric", "Grass"], "resist": ["Fire", "Water", "Ice", "Steel"], "immune": []},
+    "Electric": {"weak": ["Ground"], "resist": ["Electric", "Flying", "Steel"], "immune": []},
+    "Grass": {"weak": ["Fire", "Ice", "Poison", "Flying", "Bug"], "resist": ["Water", "Electric", "Grass", "Ground"], "immune": []},
+    "Ice": {"weak": ["Fire", "Fighting", "Rock", "Steel"], "resist": ["Ice"], "immune": []},
+    "Fighting": {"weak": ["Flying", "Psychic", "Fairy"], "resist": ["Bug", "Rock", "Dark"], "immune": []},
+    "Poison": {"weak": ["Ground", "Psychic"], "resist": ["Fighting", "Poison", "Bug", "Grass", "Fairy"], "immune": []},
+    "Ground": {"weak": ["Water", "Grass", "Ice"], "resist": ["Poison", "Rock"], "immune": ["Electric"]},
+    "Flying": {"weak": ["Electric", "Ice", "Rock"], "resist": ["Fighting", "Bug", "Grass"], "immune": ["Ground"]},
+    "Psychic": {"weak": ["Bug", "Ghost", "Dark"], "resist": ["Fighting", "Psychic"], "immune": []},
+    "Bug": {"weak": ["Fire", "Flying", "Rock"], "resist": ["Fighting", "Ground", "Grass"], "immune": []},
+    "Rock": {"weak": ["Water", "Grass", "Fighting", "Ground", "Steel"], "resist": ["Normal", "Fire", "Poison", "Flying"], "immune": []},
+    "Ghost": {"weak": ["Ghost", "Dark"], "resist": ["Poison", "Bug"], "immune": ["Normal", "Fighting"]},
+    "Dragon": {"weak": ["Ice", "Dragon", "Fairy"], "resist": ["Fire", "Water", "Electric", "Grass"], "immune": []},
+    "Dark": {"weak": ["Fighting", "Bug", "Fairy"], "resist": ["Ghost", "Dark"], "immune": ["Psychic"]},
+    "Steel": {"weak": ["Fire", "Fighting", "Ground"], "resist": ["Normal", "Grass", "Ice", "Flying", "Psychic", "Bug", "Rock", "Dragon", "Steel", "Fairy"], "immune": ["Poison"]},
+    "Fairy": {"weak": ["Poison", "Steel"], "resist": ["Fighting", "Bug", "Dark"], "immune": ["Dragon"]},
+}
+
+ALL_TYPES = list(TYPE_DEFENSE.keys())
 def get_type_icon_img(t):
     tnorm = (
         t.lower()
@@ -194,6 +218,24 @@ def get_pokemmo_shoutwiki_locations(nom_en):
     except Exception as e:
         return [f"Erreur localisation: {e}"]
 
+def calc_matchups(types):
+    dmg = {t: 1.0 for t in ALL_TYPES}
+    for t in types:
+        info = TYPE_DEFENSE.get(t, {})
+        for w in info.get("weak", []):
+            dmg[w] *= 2
+        for r in info.get("resist", []):
+            dmg[r] *= 0.5
+        for im in info.get("immune", []):
+            dmg[im] *= 0
+    return {
+        "immunite": [k for k, v in dmg.items() if v == 0],
+        "double_res": [k for k, v in dmg.items() if v == 0.25],
+        "res": [k for k, v in dmg.items() if v == 0.5],
+        "double_faib": [k for k, v in dmg.items() if v == 4],
+        "faib": [k for k, v in dmg.items() if v == 2],
+    }
+
 # ---- UI -----
 pokedex = charger_pokedex()
 IS_SHINY = [False]
@@ -266,6 +308,8 @@ label_defspe = tk.Label(fiche_bg, text="", font=("Segoe UI", 15), bg="white", fg
 label_defspe.place(x=260, y=110)
 label_ev = tk.Label(fiche_bg, text="", font=("Calibri", 12), bg="white", fg="#8B5664", wraplength=210, justify="left")
 label_ev.place(x=260, y=150)
+label_match = tk.Label(fiche_bg, text="", font=("Calibri", 12), bg="white", fg="#465a8b", wraplength=210, justify="left")
+label_match.place(x=260, y=190)
 
 def txt_color(bg):
     if bg.startswith("#"):
@@ -348,6 +392,19 @@ def show_poke():
     label_defspe.config(text=f"Déf. Spé. : {poke['defense_spe']}")
     ev_str = ', '.join([f"{k} +{v}" for k, v in poke["ev"].items()]) if poke["ev"] else "-"
     label_ev.config(text=f"EV donnés: {ev_str}")
+    matchs = calc_matchups(poke["type"])
+    txt = ""
+    if matchs["immunite"]:
+        txt += "Immunités : " + ", ".join(matchs["immunite"]) + "\n"
+    if matchs["double_res"]:
+        txt += "Double rés. : " + ", ".join(matchs["double_res"]) + "\n"
+    if matchs["res"]:
+        txt += "Résistances : " + ", ".join(matchs["res"]) + "\n"
+    if matchs["double_faib"]:
+        txt += "Double faiblesse : " + ", ".join(matchs["double_faib"]) + "\n"
+    if matchs["faib"]:
+        txt += "Faiblesses : " + ", ".join(matchs["faib"])
+    label_match.config(text=txt.strip())
 
     # Image Pokémon principale
     zone_img.delete("pokeimg")
@@ -459,11 +516,19 @@ def open_shoutwiki():
     poke = pokedex[current_poke_idx[0]]
     webbrowser.open(poke_shoutwiki_link(poke['nom_en']))
 
+def open_type_info():
+    webbrowser.open("https://www.pokepedia.fr/Table_des_types")
+
 btn_lien = tk.Button(
     mainzone, text="🌐 Ouvrir la fiche complète PokéMMO shoutwiki", font=("Segoe UI", 11),
     bg="#bfeae5", command=open_shoutwiki, relief="groove"
 )
 btn_lien.place(x=350, y=380)
+btn_types = tk.Button(
+    mainzone, text="ℹ️ Tableau des types", font=("Segoe UI", 11),
+    bg="#d5e9ff", command=open_type_info, relief="groove"
+)
+btn_types.place(x=610, y=380)
 
 root.bind("<Right>", next_poke)
 root.bind("<Left>", prev_poke)

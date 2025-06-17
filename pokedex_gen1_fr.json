@@ -1,0 +1,2346 @@
+[
+  {
+    "num": 1,
+    "nom_fr": "Bulbizarre",
+    "nom_en": "Bulbasaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 49,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/1.png"
+  },
+  {
+    "num": 2,
+    "nom_fr": "Herbizarre",
+    "nom_en": "Ivysaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 1,
+      "Spécial Défense": 1
+    },
+    "defense": 63,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/2.png"
+  },
+  {
+    "num": 3,
+    "nom_fr": "Florizarre",
+    "nom_en": "Venusaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 2,
+      "Spécial Défense": 1
+    },
+    "defense": 83,
+    "defense_spe": 100,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/3.png"
+  },
+  {
+    "num": 4,
+    "nom_fr": "Salamèche",
+    "nom_en": "Charmander",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 43,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/4.png"
+  },
+  {
+    "num": 5,
+    "nom_fr": "Reptincel",
+    "nom_en": "Charmeleon",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Spécial Attaque": 1,
+      "Vitesse": 1
+    },
+    "defense": 58,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/5.png"
+  },
+  {
+    "num": 6,
+    "nom_fr": "Dracaufeu",
+    "nom_en": "Charizard",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "ev": {
+      "Spécial Attaque": 3
+    },
+    "defense": 78,
+    "defense_spe": 85,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/6.png"
+  },
+  {
+    "num": 7,
+    "nom_fr": "Carapuce",
+    "nom_en": "Squirtle",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 65,
+    "defense_spe": 64,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/7.png"
+  },
+  {
+    "num": 8,
+    "nom_fr": "Carabaffe",
+    "nom_en": "Wartortle",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Défense": 1,
+      "Spécial Défense": 1
+    },
+    "defense": 80,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/8.png"
+  },
+  {
+    "num": 9,
+    "nom_fr": "Tortank",
+    "nom_en": "Blastoise",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Spécial Défense": 3
+    },
+    "defense": 100,
+    "defense_spe": 105,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/9.png"
+  },
+  {
+    "num": 10,
+    "nom_fr": "Chenipan",
+    "nom_en": "Caterpie",
+    "type": [
+      "Bug"
+    ],
+    "ev": {
+      "PV": 1
+    },
+    "defense": 35,
+    "defense_spe": 20,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10.png"
+  },
+  {
+    "num": 11,
+    "nom_fr": "Chrysacier",
+    "nom_en": "Metapod",
+    "type": [
+      "Bug"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 55,
+    "defense_spe": 25,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/11.png"
+  },
+  {
+    "num": 12,
+    "nom_fr": "Papilusion",
+    "nom_en": "Butterfree",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ev": {
+      "Spécial Attaque": 2,
+      "Spécial Défense": 1
+    },
+    "defense": 50,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/12.png"
+  },
+  {
+    "num": 13,
+    "nom_fr": "Aspicot",
+    "nom_en": "Weedle",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 30,
+    "defense_spe": 20,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/13.png"
+  },
+  {
+    "num": 14,
+    "nom_fr": "Coconfort",
+    "nom_en": "Kakuna",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 50,
+    "defense_spe": 25,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/14.png"
+  },
+  {
+    "num": 15,
+    "nom_fr": "Dardargnan",
+    "nom_en": "Beedrill",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 2,
+      "Spécial Défense": 1
+    },
+    "defense": 40,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/15.png"
+  },
+  {
+    "num": 16,
+    "nom_fr": "Roucool",
+    "nom_en": "Pidgey",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 40,
+    "defense_spe": 35,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/16.png"
+  },
+  {
+    "num": 17,
+    "nom_fr": "Roucoups",
+    "nom_en": "Pidgeotto",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 55,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/17.png"
+  },
+  {
+    "num": 18,
+    "nom_fr": "Roucarnage",
+    "nom_en": "Pidgeot",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 3
+    },
+    "defense": 75,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/18.png"
+  },
+  {
+    "num": 19,
+    "nom_fr": "Rattata",
+    "nom_en": "Rattata",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 35,
+    "defense_spe": 35,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/19.png"
+  },
+  {
+    "num": 20,
+    "nom_fr": "Rattatac",
+    "nom_en": "Raticate",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 60,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/20.png"
+  },
+  {
+    "num": 21,
+    "nom_fr": "Piafabec",
+    "nom_en": "Spearow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 30,
+    "defense_spe": 31,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/21.png"
+  },
+  {
+    "num": 22,
+    "nom_fr": "Rapasdepic",
+    "nom_en": "Fearow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 65,
+    "defense_spe": 61,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/22.png"
+  },
+  {
+    "num": 23,
+    "nom_fr": "Abo",
+    "nom_en": "Ekans",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 44,
+    "defense_spe": 54,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/23.png"
+  },
+  {
+    "num": 24,
+    "nom_fr": "Arbok",
+    "nom_en": "Arbok",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 69,
+    "defense_spe": 79,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/24.png"
+  },
+  {
+    "num": 25,
+    "nom_fr": "Pikachu",
+    "nom_en": "Pikachu",
+    "type": [
+      "Electric"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 40,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/25.png"
+  },
+  {
+    "num": 26,
+    "nom_fr": "Raichu",
+    "nom_en": "Raichu",
+    "type": [
+      "Electric"
+    ],
+    "ev": {
+      "Vitesse": 3
+    },
+    "defense": 55,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/26.png"
+  },
+  {
+    "num": 27,
+    "nom_fr": "Sabelette",
+    "nom_en": "Sandshrew",
+    "type": [
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 85,
+    "defense_spe": 30,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/27.png"
+  },
+  {
+    "num": 28,
+    "nom_fr": "Sablaireau",
+    "nom_en": "Sandslash",
+    "type": [
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 110,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/28.png"
+  },
+  {
+    "num": 29,
+    "nom_fr": "Nidoran-f",
+    "nom_en": "Nidoran-f",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "PV": 1
+    },
+    "defense": 52,
+    "defense_spe": 40,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/29.png"
+  },
+  {
+    "num": 30,
+    "nom_fr": "Nidorina",
+    "nom_en": "Nidorina",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 67,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/30.png"
+  },
+  {
+    "num": 31,
+    "nom_fr": "Nidoqueen",
+    "nom_en": "Nidoqueen",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "ev": {
+      "PV": 3
+    },
+    "defense": 87,
+    "defense_spe": 85,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/31.png"
+  },
+  {
+    "num": 32,
+    "nom_fr": "Nidoran-m",
+    "nom_en": "Nidoran-m",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 40,
+    "defense_spe": 40,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/32.png"
+  },
+  {
+    "num": 33,
+    "nom_fr": "Nidorino",
+    "nom_en": "Nidorino",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 57,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/33.png"
+  },
+  {
+    "num": 34,
+    "nom_fr": "Nidoking",
+    "nom_en": "Nidoking",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "ev": {
+      "Attaque": 3
+    },
+    "defense": 77,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/34.png"
+  },
+  {
+    "num": 35,
+    "nom_fr": "Mélofée",
+    "nom_en": "Clefairy",
+    "type": [
+      "Fairy"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 48,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/35.png"
+  },
+  {
+    "num": 36,
+    "nom_fr": "Mélodelfe",
+    "nom_en": "Clefable",
+    "type": [
+      "Fairy"
+    ],
+    "ev": {
+      "PV": 3
+    },
+    "defense": 73,
+    "defense_spe": 90,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/36.png"
+  },
+  {
+    "num": 37,
+    "nom_fr": "Goupix",
+    "nom_en": "Vulpix",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 40,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/37.png"
+  },
+  {
+    "num": 38,
+    "nom_fr": "Feunard",
+    "nom_en": "Ninetales",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Spécial Défense": 1,
+      "Vitesse": 1
+    },
+    "defense": 75,
+    "defense_spe": 100,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/38.png"
+  },
+  {
+    "num": 39,
+    "nom_fr": "Rondoudou",
+    "nom_en": "Jigglypuff",
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 20,
+    "defense_spe": 25,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/39.png"
+  },
+  {
+    "num": 40,
+    "nom_fr": "Grodoudou",
+    "nom_en": "Wigglytuff",
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "ev": {
+      "PV": 3
+    },
+    "defense": 45,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/40.png"
+  },
+  {
+    "num": 41,
+    "nom_fr": "Nosferapti",
+    "nom_en": "Zubat",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 35,
+    "defense_spe": 40,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/41.png"
+  },
+  {
+    "num": 42,
+    "nom_fr": "Nosferalto",
+    "nom_en": "Golbat",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 70,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/42.png"
+  },
+  {
+    "num": 43,
+    "nom_fr": "Mystherbe",
+    "nom_en": "Oddish",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 55,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/43.png"
+  },
+  {
+    "num": 44,
+    "nom_fr": "Ortide",
+    "nom_en": "Gloom",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 70,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/44.png"
+  },
+  {
+    "num": 45,
+    "nom_fr": "Rafflesia",
+    "nom_en": "Vileplume",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 3
+    },
+    "defense": 85,
+    "defense_spe": 90,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/45.png"
+  },
+  {
+    "num": 46,
+    "nom_fr": "Paras",
+    "nom_en": "Paras",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 55,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/46.png"
+  },
+  {
+    "num": 47,
+    "nom_fr": "Parasect",
+    "nom_en": "Parasect",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "ev": {
+      "Attaque": 2,
+      "Défense": 1
+    },
+    "defense": 80,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/47.png"
+  },
+  {
+    "num": 48,
+    "nom_fr": "Mimitoss",
+    "nom_en": "Venonat",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Défense": 1
+    },
+    "defense": 50,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/48.png"
+  },
+  {
+    "num": 49,
+    "nom_fr": "Aéromite",
+    "nom_en": "Venomoth",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 1,
+      "Vitesse": 1
+    },
+    "defense": 60,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/49.png"
+  },
+  {
+    "num": 50,
+    "nom_fr": "Taupiqueur",
+    "nom_en": "Diglett",
+    "type": [
+      "Ground"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 25,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/50.png"
+  },
+  {
+    "num": 51,
+    "nom_fr": "Triopikeur",
+    "nom_en": "Dugtrio",
+    "type": [
+      "Ground"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 50,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/51.png"
+  },
+  {
+    "num": 52,
+    "nom_fr": "Miaouss",
+    "nom_en": "Meowth",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 35,
+    "defense_spe": 40,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/52.png"
+  },
+  {
+    "num": 53,
+    "nom_fr": "Persian",
+    "nom_en": "Persian",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 60,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/53.png"
+  },
+  {
+    "num": 54,
+    "nom_fr": "Psykokwak",
+    "nom_en": "Psyduck",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 48,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/54.png"
+  },
+  {
+    "num": 55,
+    "nom_fr": "Akwakwak",
+    "nom_en": "Golduck",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 78,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/55.png"
+  },
+  {
+    "num": 56,
+    "nom_fr": "Férosinge",
+    "nom_en": "Mankey",
+    "type": [
+      "Fighting"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 35,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/56.png"
+  },
+  {
+    "num": 57,
+    "nom_fr": "Colossinge",
+    "nom_en": "Primeape",
+    "type": [
+      "Fighting"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 60,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/57.png"
+  },
+  {
+    "num": 58,
+    "nom_fr": "Caninos",
+    "nom_en": "Growlithe",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 45,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/58.png"
+  },
+  {
+    "num": 59,
+    "nom_fr": "Arcanin",
+    "nom_en": "Arcanine",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 80,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/59.png"
+  },
+  {
+    "num": 60,
+    "nom_fr": "Ptitard",
+    "nom_en": "Poliwag",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 40,
+    "defense_spe": 40,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/60.png"
+  },
+  {
+    "num": 61,
+    "nom_fr": "Têtarte",
+    "nom_en": "Poliwhirl",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 65,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/61.png"
+  },
+  {
+    "num": 62,
+    "nom_fr": "Tartard",
+    "nom_en": "Poliwrath",
+    "type": [
+      "Water",
+      "Fighting"
+    ],
+    "ev": {
+      "Défense": 3
+    },
+    "defense": 95,
+    "defense_spe": 90,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/62.png"
+  },
+  {
+    "num": 63,
+    "nom_fr": "Abra",
+    "nom_en": "Abra",
+    "type": [
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 15,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/63.png"
+  },
+  {
+    "num": 64,
+    "nom_fr": "Kadabra",
+    "nom_en": "Kadabra",
+    "type": [
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 30,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/64.png"
+  },
+  {
+    "num": 65,
+    "nom_fr": "Alakazam",
+    "nom_en": "Alakazam",
+    "type": [
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Attaque": 3
+    },
+    "defense": 45,
+    "defense_spe": 95,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/65.png"
+  },
+  {
+    "num": 66,
+    "nom_fr": "Machoc",
+    "nom_en": "Machop",
+    "type": [
+      "Fighting"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 50,
+    "defense_spe": 35,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/66.png"
+  },
+  {
+    "num": 67,
+    "nom_fr": "Machopeur",
+    "nom_en": "Machoke",
+    "type": [
+      "Fighting"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 70,
+    "defense_spe": 60,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/67.png"
+  },
+  {
+    "num": 68,
+    "nom_fr": "Mackogneur",
+    "nom_en": "Machamp",
+    "type": [
+      "Fighting"
+    ],
+    "ev": {
+      "Attaque": 3
+    },
+    "defense": 80,
+    "defense_spe": 85,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/68.png"
+  },
+  {
+    "num": 69,
+    "nom_fr": "Chétiflor",
+    "nom_en": "Bellsprout",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 35,
+    "defense_spe": 30,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/69.png"
+  },
+  {
+    "num": 70,
+    "nom_fr": "Boustiflor",
+    "nom_en": "Weepinbell",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 50,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/70.png"
+  },
+  {
+    "num": 71,
+    "nom_fr": "Empiflor",
+    "nom_en": "Victreebel",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ev": {
+      "Attaque": 3
+    },
+    "defense": 65,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/71.png"
+  },
+  {
+    "num": 72,
+    "nom_fr": "Tentacool",
+    "nom_en": "Tentacool",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Défense": 1
+    },
+    "defense": 35,
+    "defense_spe": 100,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/72.png"
+  },
+  {
+    "num": 73,
+    "nom_fr": "Tentacruel",
+    "nom_en": "Tentacruel",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Défense": 2
+    },
+    "defense": 65,
+    "defense_spe": 120,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/73.png"
+  },
+  {
+    "num": 74,
+    "nom_fr": "Racaillou",
+    "nom_en": "Geodude",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 100,
+    "defense_spe": 30,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/74.png"
+  },
+  {
+    "num": 75,
+    "nom_fr": "Gravalanch",
+    "nom_en": "Graveler",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 115,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/75.png"
+  },
+  {
+    "num": 76,
+    "nom_fr": "Grolem",
+    "nom_en": "Golem",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 3
+    },
+    "defense": 130,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/76.png"
+  },
+  {
+    "num": 77,
+    "nom_fr": "Ponyta",
+    "nom_en": "Ponyta",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 55,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/77.png"
+  },
+  {
+    "num": 78,
+    "nom_fr": "Galopa",
+    "nom_en": "Rapidash",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 70,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/78.png"
+  },
+  {
+    "num": 79,
+    "nom_fr": "Ramoloss",
+    "nom_en": "Slowpoke",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "ev": {
+      "PV": 1
+    },
+    "defense": 65,
+    "defense_spe": 40,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/79.png"
+  },
+  {
+    "num": 80,
+    "nom_fr": "Flagadoss",
+    "nom_en": "Slowbro",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 110,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/80.png"
+  },
+  {
+    "num": 81,
+    "nom_fr": "Magnéti",
+    "nom_en": "Magnemite",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 70,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/81.png"
+  },
+  {
+    "num": 82,
+    "nom_fr": "Magnéton",
+    "nom_en": "Magneton",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 95,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/82.png"
+  },
+  {
+    "num": 83,
+    "nom_fr": "Farfetchd",
+    "nom_en": "Farfetchd",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 55,
+    "defense_spe": 62,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/83.png"
+  },
+  {
+    "num": 84,
+    "nom_fr": "Doduo",
+    "nom_en": "Doduo",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 45,
+    "defense_spe": 35,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/84.png"
+  },
+  {
+    "num": 85,
+    "nom_fr": "Dodrio",
+    "nom_en": "Dodrio",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 70,
+    "defense_spe": 60,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/85.png"
+  },
+  {
+    "num": 86,
+    "nom_fr": "Otaria",
+    "nom_en": "Seel",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Spécial Défense": 1
+    },
+    "defense": 55,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/86.png"
+  },
+  {
+    "num": 87,
+    "nom_fr": "Lamantine",
+    "nom_en": "Dewgong",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "ev": {
+      "Spécial Défense": 2
+    },
+    "defense": 80,
+    "defense_spe": 95,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/87.png"
+  },
+  {
+    "num": 88,
+    "nom_fr": "Tadmorv",
+    "nom_en": "Grimer",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "PV": 1
+    },
+    "defense": 50,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/88.png"
+  },
+  {
+    "num": 89,
+    "nom_fr": "Grotadmorv",
+    "nom_en": "Muk",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "PV": 1,
+      "Attaque": 1
+    },
+    "defense": 75,
+    "defense_spe": 100,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/89.png"
+  },
+  {
+    "num": 90,
+    "nom_fr": "Kokiyas",
+    "nom_en": "Shellder",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 100,
+    "defense_spe": 25,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/90.png"
+  },
+  {
+    "num": 91,
+    "nom_fr": "Crustabri",
+    "nom_en": "Cloyster",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 180,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/91.png"
+  },
+  {
+    "num": 92,
+    "nom_fr": "Fantominus",
+    "nom_en": "Gastly",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 30,
+    "defense_spe": 35,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/92.png"
+  },
+  {
+    "num": 93,
+    "nom_fr": "Spectrum",
+    "nom_en": "Haunter",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 45,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/93.png"
+  },
+  {
+    "num": 94,
+    "nom_fr": "Ectoplasma",
+    "nom_en": "Gengar",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "ev": {
+      "Spécial Attaque": 3
+    },
+    "defense": 60,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/94.png"
+  },
+  {
+    "num": 95,
+    "nom_fr": "Onix",
+    "nom_en": "Onix",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 160,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/95.png"
+  },
+  {
+    "num": 96,
+    "nom_fr": "Soporifik",
+    "nom_en": "Drowzee",
+    "type": [
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Défense": 1
+    },
+    "defense": 45,
+    "defense_spe": 90,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/96.png"
+  },
+  {
+    "num": 97,
+    "nom_fr": "Hypnomade",
+    "nom_en": "Hypno",
+    "type": [
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Défense": 2
+    },
+    "defense": 70,
+    "defense_spe": 115,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/97.png"
+  },
+  {
+    "num": 98,
+    "nom_fr": "Krabby",
+    "nom_en": "Krabby",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 90,
+    "defense_spe": 25,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/98.png"
+  },
+  {
+    "num": 99,
+    "nom_fr": "Krabboss",
+    "nom_en": "Kingler",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 115,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/99.png"
+  },
+  {
+    "num": 100,
+    "nom_fr": "Voltorbe",
+    "nom_en": "Voltorb",
+    "type": [
+      "Electric"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 50,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/100.png"
+  },
+  {
+    "num": 101,
+    "nom_fr": "Électrode",
+    "nom_en": "Electrode",
+    "type": [
+      "Electric"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 70,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/101.png"
+  },
+  {
+    "num": 102,
+    "nom_fr": "Noeunoeuf",
+    "nom_en": "Exeggcute",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 80,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/102.png"
+  },
+  {
+    "num": 103,
+    "nom_fr": "Noadkoko",
+    "nom_en": "Exeggutor",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 85,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/103.png"
+  },
+  {
+    "num": 104,
+    "nom_fr": "Osselait",
+    "nom_en": "Cubone",
+    "type": [
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 95,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/104.png"
+  },
+  {
+    "num": 105,
+    "nom_fr": "Ossatueur",
+    "nom_en": "Marowak",
+    "type": [
+      "Ground"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 110,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/105.png"
+  },
+  {
+    "num": 106,
+    "nom_fr": "Kicklee",
+    "nom_en": "Hitmonlee",
+    "type": [
+      "Fighting"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 53,
+    "defense_spe": 110,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/106.png"
+  },
+  {
+    "num": 107,
+    "nom_fr": "Tygnon",
+    "nom_en": "Hitmonchan",
+    "type": [
+      "Fighting"
+    ],
+    "ev": {
+      "Spécial Défense": 2
+    },
+    "defense": 79,
+    "defense_spe": 110,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/107.png"
+  },
+  {
+    "num": 108,
+    "nom_fr": "Excelangue",
+    "nom_en": "Lickitung",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 75,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/108.png"
+  },
+  {
+    "num": 109,
+    "nom_fr": "Smogo",
+    "nom_en": "Koffing",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 95,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/109.png"
+  },
+  {
+    "num": 110,
+    "nom_fr": "Smogogo",
+    "nom_en": "Weezing",
+    "type": [
+      "Poison"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 120,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/110.png"
+  },
+  {
+    "num": 111,
+    "nom_fr": "Rhinocorne",
+    "nom_en": "Rhyhorn",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 95,
+    "defense_spe": 30,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/111.png"
+  },
+  {
+    "num": 112,
+    "nom_fr": "Rhinoféros",
+    "nom_en": "Rhydon",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 120,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/112.png"
+  },
+  {
+    "num": 113,
+    "nom_fr": "Leveinard",
+    "nom_en": "Chansey",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 5,
+    "defense_spe": 105,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/113.png"
+  },
+  {
+    "num": 114,
+    "nom_fr": "Saquedeneu",
+    "nom_en": "Tangela",
+    "type": [
+      "Grass"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 115,
+    "defense_spe": 40,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/114.png"
+  },
+  {
+    "num": 115,
+    "nom_fr": "Kangourex",
+    "nom_en": "Kangaskhan",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 80,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/115.png"
+  },
+  {
+    "num": 116,
+    "nom_fr": "Hypotrempe",
+    "nom_en": "Horsea",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 70,
+    "defense_spe": 25,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/116.png"
+  },
+  {
+    "num": 117,
+    "nom_fr": "Hypocéan",
+    "nom_en": "Seadra",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Défense": 1,
+      "Spécial Attaque": 1
+    },
+    "defense": 95,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/117.png"
+  },
+  {
+    "num": 118,
+    "nom_fr": "Poissirène",
+    "nom_en": "Goldeen",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 60,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/118.png"
+  },
+  {
+    "num": 119,
+    "nom_fr": "Poissoroy",
+    "nom_en": "Seaking",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 65,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/119.png"
+  },
+  {
+    "num": 120,
+    "nom_fr": "Stari",
+    "nom_en": "Staryu",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 55,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/120.png"
+  },
+  {
+    "num": 121,
+    "nom_fr": "Staross",
+    "nom_en": "Starmie",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 85,
+    "defense_spe": 85,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/121.png"
+  },
+  {
+    "num": 122,
+    "nom_fr": "Mr-mime",
+    "nom_en": "Mr-mime",
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
+    "ev": {
+      "Spécial Défense": 2
+    },
+    "defense": 65,
+    "defense_spe": 120,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/122.png"
+  },
+  {
+    "num": 123,
+    "nom_fr": "Insécateur",
+    "nom_en": "Scyther",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 80,
+    "defense_spe": 80,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/123.png"
+  },
+  {
+    "num": 124,
+    "nom_fr": "Lippoutou",
+    "nom_en": "Jynx",
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 35,
+    "defense_spe": 95,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/124.png"
+  },
+  {
+    "num": 125,
+    "nom_fr": "Élektek",
+    "nom_en": "Electabuzz",
+    "type": [
+      "Electric"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 57,
+    "defense_spe": 85,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/125.png"
+  },
+  {
+    "num": 126,
+    "nom_fr": "Magmar",
+    "nom_en": "Magmar",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Spécial Attaque": 2
+    },
+    "defense": 57,
+    "defense_spe": 85,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/126.png"
+  },
+  {
+    "num": 127,
+    "nom_fr": "Scarabrute",
+    "nom_en": "Pinsir",
+    "type": [
+      "Bug"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 100,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/127.png"
+  },
+  {
+    "num": 128,
+    "nom_fr": "Tauros",
+    "nom_en": "Tauros",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "Attaque": 1,
+      "Vitesse": 1
+    },
+    "defense": 95,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/128.png"
+  },
+  {
+    "num": 129,
+    "nom_fr": "Magicarpe",
+    "nom_en": "Magikarp",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "Vitesse": 1
+    },
+    "defense": 55,
+    "defense_spe": 20,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/129.png"
+  },
+  {
+    "num": 130,
+    "nom_fr": "Léviator",
+    "nom_en": "Gyarados",
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 79,
+    "defense_spe": 100,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/130.png"
+  },
+  {
+    "num": 131,
+    "nom_fr": "Lokhlass",
+    "nom_en": "Lapras",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 80,
+    "defense_spe": 95,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/131.png"
+  },
+  {
+    "num": 132,
+    "nom_fr": "Métamorph",
+    "nom_en": "Ditto",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "PV": 1
+    },
+    "defense": 48,
+    "defense_spe": 48,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/132.png"
+  },
+  {
+    "num": 133,
+    "nom_fr": "Évoli",
+    "nom_en": "Eevee",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "Spécial Défense": 1
+    },
+    "defense": 50,
+    "defense_spe": 65,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/133.png"
+  },
+  {
+    "num": 134,
+    "nom_fr": "Aquali",
+    "nom_en": "Vaporeon",
+    "type": [
+      "Water"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 60,
+    "defense_spe": 95,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/134.png"
+  },
+  {
+    "num": 135,
+    "nom_fr": "Voltali",
+    "nom_en": "Jolteon",
+    "type": [
+      "Electric"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 60,
+    "defense_spe": 95,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/135.png"
+  },
+  {
+    "num": 136,
+    "nom_fr": "Pyroli",
+    "nom_en": "Flareon",
+    "type": [
+      "Fire"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 60,
+    "defense_spe": 110,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/136.png"
+  },
+  {
+    "num": 137,
+    "nom_fr": "Porygon",
+    "nom_en": "Porygon",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "Spécial Attaque": 1
+    },
+    "defense": 70,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/137.png"
+  },
+  {
+    "num": 138,
+    "nom_fr": "Amonita",
+    "nom_en": "Omanyte",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 100,
+    "defense_spe": 55,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/138.png"
+  },
+  {
+    "num": 139,
+    "nom_fr": "Amonistar",
+    "nom_en": "Omastar",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ev": {
+      "Défense": 2
+    },
+    "defense": 125,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/139.png"
+  },
+  {
+    "num": 140,
+    "nom_fr": "Kabuto",
+    "nom_en": "Kabuto",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ev": {
+      "Défense": 1
+    },
+    "defense": 90,
+    "defense_spe": 45,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/140.png"
+  },
+  {
+    "num": 141,
+    "nom_fr": "Kabutops",
+    "nom_en": "Kabutops",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 105,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/141.png"
+  },
+  {
+    "num": 142,
+    "nom_fr": "Ptéra",
+    "nom_en": "Aerodactyl",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "ev": {
+      "Vitesse": 2
+    },
+    "defense": 65,
+    "defense_spe": 75,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/142.png"
+  },
+  {
+    "num": 143,
+    "nom_fr": "Ronflex",
+    "nom_en": "Snorlax",
+    "type": [
+      "Normal"
+    ],
+    "ev": {
+      "PV": 2
+    },
+    "defense": 65,
+    "defense_spe": 110,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/143.png"
+  },
+  {
+    "num": 144,
+    "nom_fr": "Artikodin",
+    "nom_en": "Articuno",
+    "type": [
+      "Ice",
+      "Flying"
+    ],
+    "ev": {
+      "Spécial Défense": 3
+    },
+    "defense": 100,
+    "defense_spe": 125,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/144.png"
+  },
+  {
+    "num": 145,
+    "nom_fr": "Électhor",
+    "nom_en": "Zapdos",
+    "type": [
+      "Electric",
+      "Flying"
+    ],
+    "ev": {
+      "Spécial Attaque": 3
+    },
+    "defense": 85,
+    "defense_spe": 90,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/145.png"
+  },
+  {
+    "num": 146,
+    "nom_fr": "Sulfura",
+    "nom_en": "Moltres",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "ev": {
+      "Spécial Attaque": 3
+    },
+    "defense": 90,
+    "defense_spe": 85,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/146.png"
+  },
+  {
+    "num": 147,
+    "nom_fr": "Minidraco",
+    "nom_en": "Dratini",
+    "type": [
+      "Dragon"
+    ],
+    "ev": {
+      "Attaque": 1
+    },
+    "defense": 45,
+    "defense_spe": 50,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/147.png"
+  },
+  {
+    "num": 148,
+    "nom_fr": "Draco",
+    "nom_en": "Dragonair",
+    "type": [
+      "Dragon"
+    ],
+    "ev": {
+      "Attaque": 2
+    },
+    "defense": 65,
+    "defense_spe": 70,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/148.png"
+  },
+  {
+    "num": 149,
+    "nom_fr": "Dracolosse",
+    "nom_en": "Dragonite",
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    "ev": {
+      "Attaque": 3
+    },
+    "defense": 95,
+    "defense_spe": 100,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/149.png"
+  },
+  {
+    "num": 150,
+    "nom_fr": "Mewtwo",
+    "nom_en": "Mewtwo",
+    "type": [
+      "Psychic"
+    ],
+    "ev": {
+      "Spécial Attaque": 3
+    },
+    "defense": 90,
+    "defense_spe": 90,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/150.png"
+  },
+  {
+    "num": 151,
+    "nom_fr": "Mew",
+    "nom_en": "Mew",
+    "type": [
+      "Psychic"
+    ],
+    "ev": {
+      "PV": 3
+    },
+    "defense": 100,
+    "defense_spe": 100,
+    "img_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "img_shiny_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/151.png"
+  }
+]

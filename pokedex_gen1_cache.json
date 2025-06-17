@@ -1,0 +1,3156 @@
+{
+    "1": {
+        "id": 1,
+        "nom": "Bulbizarre",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 49,
+        "defense_speciale": 65
+    },
+    "bulbizarre": {
+        "id": 1,
+        "nom": "Bulbizarre",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 49,
+        "defense_speciale": 65
+    },
+    "2": {
+        "id": 2,
+        "nom": "Herbizarre",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale, 1 Défense Spéciale",
+        "defense": 63,
+        "defense_speciale": 80
+    },
+    "herbizarre": {
+        "id": 2,
+        "nom": "Herbizarre",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale, 1 Défense Spéciale",
+        "defense": 63,
+        "defense_speciale": 80
+    },
+    "3": {
+        "id": 3,
+        "nom": "Florizarre",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque Spéciale, 1 Défense Spéciale",
+        "defense": 83,
+        "defense_speciale": 100
+    },
+    "florizarre": {
+        "id": 3,
+        "nom": "Florizarre",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque Spéciale, 1 Défense Spéciale",
+        "defense": 83,
+        "defense_speciale": 100
+    },
+    "4": {
+        "id": 4,
+        "nom": "Salamèche",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 43,
+        "defense_speciale": 50
+    },
+    "salamèche": {
+        "id": 4,
+        "nom": "Salamèche",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 43,
+        "defense_speciale": 50
+    },
+    "5": {
+        "id": 5,
+        "nom": "Reptincel",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Attaque Spéciale, 1 Vitesse",
+        "defense": 58,
+        "defense_speciale": 65
+    },
+    "reptincel": {
+        "id": 5,
+        "nom": "Reptincel",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Attaque Spéciale, 1 Vitesse",
+        "defense": 58,
+        "defense_speciale": 65
+    },
+    "6": {
+        "id": 6,
+        "nom": "Dracaufeu",
+        "types": [
+            "Feu",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 78,
+        "defense_speciale": 85
+    },
+    "dracaufeu": {
+        "id": 6,
+        "nom": "Dracaufeu",
+        "types": [
+            "Feu",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 78,
+        "defense_speciale": 85
+    },
+    "7": {
+        "id": 7,
+        "nom": "Carapuce",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 65,
+        "defense_speciale": 64
+    },
+    "carapuce": {
+        "id": 7,
+        "nom": "Carapuce",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 65,
+        "defense_speciale": 64
+    },
+    "8": {
+        "id": 8,
+        "nom": "Carabaffe",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense, 1 Défense Spéciale",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "carabaffe": {
+        "id": 8,
+        "nom": "Carabaffe",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense, 1 Défense Spéciale",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "9": {
+        "id": 9,
+        "nom": "Tortank",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "3 Défense Spéciale",
+        "defense": 100,
+        "defense_speciale": 105
+    },
+    "tortank": {
+        "id": 9,
+        "nom": "Tortank",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "3 Défense Spéciale",
+        "defense": 100,
+        "defense_speciale": 105
+    },
+    "10": {
+        "id": 10,
+        "nom": "Chenipan",
+        "types": [
+            "Insecte"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 35,
+        "defense_speciale": 20
+    },
+    "chenipan": {
+        "id": 10,
+        "nom": "Chenipan",
+        "types": [
+            "Insecte"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 35,
+        "defense_speciale": 20
+    },
+    "11": {
+        "id": 11,
+        "nom": "Chrysacier",
+        "types": [
+            "Insecte"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 55,
+        "defense_speciale": 25
+    },
+    "chrysacier": {
+        "id": 11,
+        "nom": "Chrysacier",
+        "types": [
+            "Insecte"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 55,
+        "defense_speciale": 25
+    },
+    "12": {
+        "id": 12,
+        "nom": "Papilusion",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "ev_yield": "2 Attaque Spéciale, 1 Défense Spéciale",
+        "defense": 50,
+        "defense_speciale": 80
+    },
+    "papilusion": {
+        "id": 12,
+        "nom": "Papilusion",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "ev_yield": "2 Attaque Spéciale, 1 Défense Spéciale",
+        "defense": 50,
+        "defense_speciale": 80
+    },
+    "13": {
+        "id": 13,
+        "nom": "Aspicot",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 30,
+        "defense_speciale": 20
+    },
+    "aspicot": {
+        "id": 13,
+        "nom": "Aspicot",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 30,
+        "defense_speciale": 20
+    },
+    "14": {
+        "id": 14,
+        "nom": "Coconfort",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 50,
+        "defense_speciale": 25
+    },
+    "coconfort": {
+        "id": 14,
+        "nom": "Coconfort",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 50,
+        "defense_speciale": 25
+    },
+    "15": {
+        "id": 15,
+        "nom": "Dardargnan",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque, 1 Défense Spéciale",
+        "defense": 40,
+        "defense_speciale": 80
+    },
+    "dardargnan": {
+        "id": 15,
+        "nom": "Dardargnan",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque, 1 Défense Spéciale",
+        "defense": 40,
+        "defense_speciale": 80
+    },
+    "16": {
+        "id": 16,
+        "nom": "Roucool",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 40,
+        "defense_speciale": 35
+    },
+    "roucool": {
+        "id": 16,
+        "nom": "Roucool",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 40,
+        "defense_speciale": 35
+    },
+    "17": {
+        "id": 17,
+        "nom": "Roucoups",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 55,
+        "defense_speciale": 50
+    },
+    "roucoups": {
+        "id": 17,
+        "nom": "Roucoups",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 55,
+        "defense_speciale": 50
+    },
+    "18": {
+        "id": 18,
+        "nom": "Roucarnage",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "3 Vitesse",
+        "defense": 75,
+        "defense_speciale": 70
+    },
+    "roucarnage": {
+        "id": 18,
+        "nom": "Roucarnage",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "3 Vitesse",
+        "defense": 75,
+        "defense_speciale": 70
+    },
+    "19": {
+        "id": 19,
+        "nom": "Rattata",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 35,
+        "defense_speciale": 35
+    },
+    "rattata": {
+        "id": 19,
+        "nom": "Rattata",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 35,
+        "defense_speciale": 35
+    },
+    "20": {
+        "id": 20,
+        "nom": "Rattatac",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 60,
+        "defense_speciale": 70
+    },
+    "rattatac": {
+        "id": 20,
+        "nom": "Rattatac",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 60,
+        "defense_speciale": 70
+    },
+    "21": {
+        "id": 21,
+        "nom": "Piafabec",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 30,
+        "defense_speciale": 31
+    },
+    "piafabec": {
+        "id": 21,
+        "nom": "Piafabec",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 30,
+        "defense_speciale": 31
+    },
+    "22": {
+        "id": 22,
+        "nom": "Rapasdepic",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 65,
+        "defense_speciale": 61
+    },
+    "rapasdepic": {
+        "id": 22,
+        "nom": "Rapasdepic",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 65,
+        "defense_speciale": 61
+    },
+    "23": {
+        "id": 23,
+        "nom": "Abo",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 44,
+        "defense_speciale": 54
+    },
+    "abo": {
+        "id": 23,
+        "nom": "Abo",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 44,
+        "defense_speciale": 54
+    },
+    "24": {
+        "id": 24,
+        "nom": "Arbok",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 69,
+        "defense_speciale": 79
+    },
+    "arbok": {
+        "id": 24,
+        "nom": "Arbok",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 69,
+        "defense_speciale": 79
+    },
+    "25": {
+        "id": 25,
+        "nom": "Pikachu",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 40,
+        "defense_speciale": 50
+    },
+    "pikachu": {
+        "id": 25,
+        "nom": "Pikachu",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 40,
+        "defense_speciale": 50
+    },
+    "26": {
+        "id": 26,
+        "nom": "Raichu",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "3 Vitesse",
+        "defense": 55,
+        "defense_speciale": 80
+    },
+    "raichu": {
+        "id": 26,
+        "nom": "Raichu",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "3 Vitesse",
+        "defense": 55,
+        "defense_speciale": 80
+    },
+    "27": {
+        "id": 27,
+        "nom": "Sabelette",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 85,
+        "defense_speciale": 30
+    },
+    "sabelette": {
+        "id": 27,
+        "nom": "Sabelette",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 85,
+        "defense_speciale": 30
+    },
+    "28": {
+        "id": 28,
+        "nom": "Sablaireau",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 110,
+        "defense_speciale": 55
+    },
+    "sablaireau": {
+        "id": 28,
+        "nom": "Sablaireau",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 110,
+        "defense_speciale": 55
+    },
+    "29": {
+        "id": 29,
+        "nom": "Nidoran♀",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 52,
+        "defense_speciale": 40
+    },
+    "nidoran♀": {
+        "id": 29,
+        "nom": "Nidoran♀",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 52,
+        "defense_speciale": 40
+    },
+    "30": {
+        "id": 30,
+        "nom": "Nidorina",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 67,
+        "defense_speciale": 55
+    },
+    "nidorina": {
+        "id": 30,
+        "nom": "Nidorina",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 67,
+        "defense_speciale": 55
+    },
+    "31": {
+        "id": 31,
+        "nom": "Nidoqueen",
+        "types": [
+            "Poison",
+            "Sol"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 87,
+        "defense_speciale": 85
+    },
+    "nidoqueen": {
+        "id": 31,
+        "nom": "Nidoqueen",
+        "types": [
+            "Poison",
+            "Sol"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 87,
+        "defense_speciale": 85
+    },
+    "32": {
+        "id": 32,
+        "nom": "Nidoran♂",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 40,
+        "defense_speciale": 40
+    },
+    "nidoran♂": {
+        "id": 32,
+        "nom": "Nidoran♂",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 40,
+        "defense_speciale": 40
+    },
+    "33": {
+        "id": 33,
+        "nom": "Nidorino",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 57,
+        "defense_speciale": 55
+    },
+    "nidorino": {
+        "id": 33,
+        "nom": "Nidorino",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 57,
+        "defense_speciale": 55
+    },
+    "34": {
+        "id": 34,
+        "nom": "Nidoking",
+        "types": [
+            "Poison",
+            "Sol"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 77,
+        "defense_speciale": 75
+    },
+    "nidoking": {
+        "id": 34,
+        "nom": "Nidoking",
+        "types": [
+            "Poison",
+            "Sol"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 77,
+        "defense_speciale": 75
+    },
+    "35": {
+        "id": 35,
+        "nom": "Mélofée",
+        "types": [
+            "Fée"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 48,
+        "defense_speciale": 65
+    },
+    "mélofée": {
+        "id": 35,
+        "nom": "Mélofée",
+        "types": [
+            "Fée"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 48,
+        "defense_speciale": 65
+    },
+    "36": {
+        "id": 36,
+        "nom": "Mélodelfe",
+        "types": [
+            "Fée"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 73,
+        "defense_speciale": 90
+    },
+    "mélodelfe": {
+        "id": 36,
+        "nom": "Mélodelfe",
+        "types": [
+            "Fée"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 73,
+        "defense_speciale": 90
+    },
+    "37": {
+        "id": 37,
+        "nom": "Goupix",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 40,
+        "defense_speciale": 65
+    },
+    "goupix": {
+        "id": 37,
+        "nom": "Goupix",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 40,
+        "defense_speciale": 65
+    },
+    "38": {
+        "id": 38,
+        "nom": "Feunard",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Défense Spéciale, 1 Vitesse",
+        "defense": 75,
+        "defense_speciale": 100
+    },
+    "feunard": {
+        "id": 38,
+        "nom": "Feunard",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Défense Spéciale, 1 Vitesse",
+        "defense": 75,
+        "defense_speciale": 100
+    },
+    "39": {
+        "id": 39,
+        "nom": "Rondoudou",
+        "types": [
+            "Normal",
+            "Fée"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 20,
+        "defense_speciale": 25
+    },
+    "rondoudou": {
+        "id": 39,
+        "nom": "Rondoudou",
+        "types": [
+            "Normal",
+            "Fée"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 20,
+        "defense_speciale": 25
+    },
+    "40": {
+        "id": 40,
+        "nom": "Grodoudou",
+        "types": [
+            "Normal",
+            "Fée"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 45,
+        "defense_speciale": 50
+    },
+    "grodoudou": {
+        "id": 40,
+        "nom": "Grodoudou",
+        "types": [
+            "Normal",
+            "Fée"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 45,
+        "defense_speciale": 50
+    },
+    "41": {
+        "id": 41,
+        "nom": "Nosferapti",
+        "types": [
+            "Poison",
+            "Vol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 35,
+        "defense_speciale": 40
+    },
+    "nosferapti": {
+        "id": 41,
+        "nom": "Nosferapti",
+        "types": [
+            "Poison",
+            "Vol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 35,
+        "defense_speciale": 40
+    },
+    "42": {
+        "id": 42,
+        "nom": "Nosferalto",
+        "types": [
+            "Poison",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 70,
+        "defense_speciale": 75
+    },
+    "nosferalto": {
+        "id": 42,
+        "nom": "Nosferalto",
+        "types": [
+            "Poison",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 70,
+        "defense_speciale": 75
+    },
+    "43": {
+        "id": 43,
+        "nom": "Mystherbe",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 55,
+        "defense_speciale": 65
+    },
+    "mystherbe": {
+        "id": 43,
+        "nom": "Mystherbe",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 55,
+        "defense_speciale": 65
+    },
+    "44": {
+        "id": 44,
+        "nom": "Ortide",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 75
+    },
+    "ortide": {
+        "id": 44,
+        "nom": "Ortide",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 75
+    },
+    "45": {
+        "id": 45,
+        "nom": "Rafflesia",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 85,
+        "defense_speciale": 90
+    },
+    "rafflesia": {
+        "id": 45,
+        "nom": "Rafflesia",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 85,
+        "defense_speciale": 90
+    },
+    "46": {
+        "id": 46,
+        "nom": "Paras",
+        "types": [
+            "Insecte",
+            "Plante"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 55,
+        "defense_speciale": 55
+    },
+    "paras": {
+        "id": 46,
+        "nom": "Paras",
+        "types": [
+            "Insecte",
+            "Plante"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 55,
+        "defense_speciale": 55
+    },
+    "47": {
+        "id": 47,
+        "nom": "Parasect",
+        "types": [
+            "Insecte",
+            "Plante"
+        ],
+        "ev_yield": "2 Attaque, 1 Défense",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "parasect": {
+        "id": 47,
+        "nom": "Parasect",
+        "types": [
+            "Insecte",
+            "Plante"
+        ],
+        "ev_yield": "2 Attaque, 1 Défense",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "48": {
+        "id": 48,
+        "nom": "Mimitoss",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 50,
+        "defense_speciale": 55
+    },
+    "mimitoss": {
+        "id": 48,
+        "nom": "Mimitoss",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 50,
+        "defense_speciale": 55
+    },
+    "49": {
+        "id": 49,
+        "nom": "Aéromite",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale, 1 Vitesse",
+        "defense": 60,
+        "defense_speciale": 75
+    },
+    "aéromite": {
+        "id": 49,
+        "nom": "Aéromite",
+        "types": [
+            "Insecte",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale, 1 Vitesse",
+        "defense": 60,
+        "defense_speciale": 75
+    },
+    "50": {
+        "id": 50,
+        "nom": "Taupiqueur",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 25,
+        "defense_speciale": 45
+    },
+    "taupiqueur": {
+        "id": 50,
+        "nom": "Taupiqueur",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 25,
+        "defense_speciale": 45
+    },
+    "51": {
+        "id": 51,
+        "nom": "Triopikeur",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 50,
+        "defense_speciale": 70
+    },
+    "triopikeur": {
+        "id": 51,
+        "nom": "Triopikeur",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 50,
+        "defense_speciale": 70
+    },
+    "52": {
+        "id": 52,
+        "nom": "Miaouss",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 35,
+        "defense_speciale": 40
+    },
+    "miaouss": {
+        "id": 52,
+        "nom": "Miaouss",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 35,
+        "defense_speciale": 40
+    },
+    "53": {
+        "id": 53,
+        "nom": "Persian",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 60,
+        "defense_speciale": 65
+    },
+    "persian": {
+        "id": 53,
+        "nom": "Persian",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 60,
+        "defense_speciale": 65
+    },
+    "54": {
+        "id": 54,
+        "nom": "Psykokwak",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 48,
+        "defense_speciale": 50
+    },
+    "psykokwak": {
+        "id": 54,
+        "nom": "Psykokwak",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 48,
+        "defense_speciale": 50
+    },
+    "55": {
+        "id": 55,
+        "nom": "Akwakwak",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 78,
+        "defense_speciale": 80
+    },
+    "akwakwak": {
+        "id": 55,
+        "nom": "Akwakwak",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 78,
+        "defense_speciale": 80
+    },
+    "56": {
+        "id": 56,
+        "nom": "Férosinge",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 35,
+        "defense_speciale": 45
+    },
+    "férosinge": {
+        "id": 56,
+        "nom": "Férosinge",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 35,
+        "defense_speciale": 45
+    },
+    "57": {
+        "id": 57,
+        "nom": "Colossinge",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 60,
+        "defense_speciale": 70
+    },
+    "colossinge": {
+        "id": 57,
+        "nom": "Colossinge",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 60,
+        "defense_speciale": 70
+    },
+    "58": {
+        "id": 58,
+        "nom": "Caninos",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 45,
+        "defense_speciale": 50
+    },
+    "caninos": {
+        "id": 58,
+        "nom": "Caninos",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 45,
+        "defense_speciale": 50
+    },
+    "59": {
+        "id": 59,
+        "nom": "Arcanin",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "arcanin": {
+        "id": 59,
+        "nom": "Arcanin",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "60": {
+        "id": 60,
+        "nom": "Ptitard",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 40,
+        "defense_speciale": 40
+    },
+    "ptitard": {
+        "id": 60,
+        "nom": "Ptitard",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 40,
+        "defense_speciale": 40
+    },
+    "61": {
+        "id": 61,
+        "nom": "Têtarte",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 65,
+        "defense_speciale": 50
+    },
+    "têtarte": {
+        "id": 61,
+        "nom": "Têtarte",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 65,
+        "defense_speciale": 50
+    },
+    "62": {
+        "id": 62,
+        "nom": "Tartard",
+        "types": [
+            "Eau",
+            "Combat"
+        ],
+        "ev_yield": "3 Défense",
+        "defense": 95,
+        "defense_speciale": 90
+    },
+    "tartard": {
+        "id": 62,
+        "nom": "Tartard",
+        "types": [
+            "Eau",
+            "Combat"
+        ],
+        "ev_yield": "3 Défense",
+        "defense": 95,
+        "defense_speciale": 90
+    },
+    "63": {
+        "id": 63,
+        "nom": "Abra",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 15,
+        "defense_speciale": 55
+    },
+    "abra": {
+        "id": 63,
+        "nom": "Abra",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 15,
+        "defense_speciale": 55
+    },
+    "64": {
+        "id": 64,
+        "nom": "Kadabra",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 30,
+        "defense_speciale": 70
+    },
+    "kadabra": {
+        "id": 64,
+        "nom": "Kadabra",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 30,
+        "defense_speciale": 70
+    },
+    "65": {
+        "id": 65,
+        "nom": "Alakazam",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 45,
+        "defense_speciale": 95
+    },
+    "alakazam": {
+        "id": 65,
+        "nom": "Alakazam",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 45,
+        "defense_speciale": 95
+    },
+    "66": {
+        "id": 66,
+        "nom": "Machoc",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 50,
+        "defense_speciale": 35
+    },
+    "machoc": {
+        "id": 66,
+        "nom": "Machoc",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 50,
+        "defense_speciale": 35
+    },
+    "67": {
+        "id": 67,
+        "nom": "Machopeur",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 70,
+        "defense_speciale": 60
+    },
+    "machopeur": {
+        "id": 67,
+        "nom": "Machopeur",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 70,
+        "defense_speciale": 60
+    },
+    "68": {
+        "id": 68,
+        "nom": "Mackogneur",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 80,
+        "defense_speciale": 85
+    },
+    "mackogneur": {
+        "id": 68,
+        "nom": "Mackogneur",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 80,
+        "defense_speciale": 85
+    },
+    "69": {
+        "id": 69,
+        "nom": "Chétiflor",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 35,
+        "defense_speciale": 30
+    },
+    "chétiflor": {
+        "id": 69,
+        "nom": "Chétiflor",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 35,
+        "defense_speciale": 30
+    },
+    "70": {
+        "id": 70,
+        "nom": "Boustiflor",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 50,
+        "defense_speciale": 45
+    },
+    "boustiflor": {
+        "id": 70,
+        "nom": "Boustiflor",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 50,
+        "defense_speciale": 45
+    },
+    "71": {
+        "id": 71,
+        "nom": "Empiflor",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 65,
+        "defense_speciale": 70
+    },
+    "empiflor": {
+        "id": 71,
+        "nom": "Empiflor",
+        "types": [
+            "Plante",
+            "Poison"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 65,
+        "defense_speciale": 70
+    },
+    "72": {
+        "id": 72,
+        "nom": "Tentacool",
+        "types": [
+            "Eau",
+            "Poison"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 35,
+        "defense_speciale": 100
+    },
+    "tentacool": {
+        "id": 72,
+        "nom": "Tentacool",
+        "types": [
+            "Eau",
+            "Poison"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 35,
+        "defense_speciale": 100
+    },
+    "73": {
+        "id": 73,
+        "nom": "Tentacruel",
+        "types": [
+            "Eau",
+            "Poison"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 65,
+        "defense_speciale": 120
+    },
+    "tentacruel": {
+        "id": 73,
+        "nom": "Tentacruel",
+        "types": [
+            "Eau",
+            "Poison"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 65,
+        "defense_speciale": 120
+    },
+    "74": {
+        "id": 74,
+        "nom": "Racaillou",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 100,
+        "defense_speciale": 30
+    },
+    "racaillou": {
+        "id": 74,
+        "nom": "Racaillou",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 100,
+        "defense_speciale": 30
+    },
+    "75": {
+        "id": 75,
+        "nom": "Gravalanch",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 115,
+        "defense_speciale": 45
+    },
+    "gravalanch": {
+        "id": 75,
+        "nom": "Gravalanch",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 115,
+        "defense_speciale": 45
+    },
+    "76": {
+        "id": 76,
+        "nom": "Grolem",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "3 Défense",
+        "defense": 130,
+        "defense_speciale": 65
+    },
+    "grolem": {
+        "id": 76,
+        "nom": "Grolem",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "3 Défense",
+        "defense": 130,
+        "defense_speciale": 65
+    },
+    "77": {
+        "id": 77,
+        "nom": "Ponyta",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 55,
+        "defense_speciale": 65
+    },
+    "ponyta": {
+        "id": 77,
+        "nom": "Ponyta",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 55,
+        "defense_speciale": 65
+    },
+    "78": {
+        "id": 78,
+        "nom": "Galopa",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 70,
+        "defense_speciale": 80
+    },
+    "galopa": {
+        "id": 78,
+        "nom": "Galopa",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 70,
+        "defense_speciale": 80
+    },
+    "79": {
+        "id": 79,
+        "nom": "Ramoloss",
+        "types": [
+            "Eau",
+            "Psy"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 65,
+        "defense_speciale": 40
+    },
+    "ramoloss": {
+        "id": 79,
+        "nom": "Ramoloss",
+        "types": [
+            "Eau",
+            "Psy"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 65,
+        "defense_speciale": 40
+    },
+    "80": {
+        "id": 80,
+        "nom": "Flagadoss",
+        "types": [
+            "Eau",
+            "Psy"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 110,
+        "defense_speciale": 80
+    },
+    "flagadoss": {
+        "id": 80,
+        "nom": "Flagadoss",
+        "types": [
+            "Eau",
+            "Psy"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 110,
+        "defense_speciale": 80
+    },
+    "81": {
+        "id": 81,
+        "nom": "Magnéti",
+        "types": [
+            "Électrik",
+            "Acier"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 55
+    },
+    "magnéti": {
+        "id": 81,
+        "nom": "Magnéti",
+        "types": [
+            "Électrik",
+            "Acier"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 55
+    },
+    "82": {
+        "id": 82,
+        "nom": "Magnéton",
+        "types": [
+            "Électrik",
+            "Acier"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 95,
+        "defense_speciale": 70
+    },
+    "magnéton": {
+        "id": 82,
+        "nom": "Magnéton",
+        "types": [
+            "Électrik",
+            "Acier"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 95,
+        "defense_speciale": 70
+    },
+    "83": {
+        "id": 83,
+        "nom": "Canarticho",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 55,
+        "defense_speciale": 62
+    },
+    "canarticho": {
+        "id": 83,
+        "nom": "Canarticho",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 55,
+        "defense_speciale": 62
+    },
+    "84": {
+        "id": 84,
+        "nom": "Doduo",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 45,
+        "defense_speciale": 35
+    },
+    "doduo": {
+        "id": 84,
+        "nom": "Doduo",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 45,
+        "defense_speciale": 35
+    },
+    "85": {
+        "id": 85,
+        "nom": "Dodrio",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 70,
+        "defense_speciale": 60
+    },
+    "dodrio": {
+        "id": 85,
+        "nom": "Dodrio",
+        "types": [
+            "Normal",
+            "Vol"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 70,
+        "defense_speciale": 60
+    },
+    "86": {
+        "id": 86,
+        "nom": "Otaria",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 55,
+        "defense_speciale": 70
+    },
+    "otaria": {
+        "id": 86,
+        "nom": "Otaria",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 55,
+        "defense_speciale": 70
+    },
+    "87": {
+        "id": 87,
+        "nom": "Lamantine",
+        "types": [
+            "Eau",
+            "Glace"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 80,
+        "defense_speciale": 95
+    },
+    "lamantine": {
+        "id": 87,
+        "nom": "Lamantine",
+        "types": [
+            "Eau",
+            "Glace"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 80,
+        "defense_speciale": 95
+    },
+    "88": {
+        "id": 88,
+        "nom": "Tadmorv",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 50,
+        "defense_speciale": 50
+    },
+    "tadmorv": {
+        "id": 88,
+        "nom": "Tadmorv",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 50,
+        "defense_speciale": 50
+    },
+    "89": {
+        "id": 89,
+        "nom": "Grotadmorv",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 PV, 1 Attaque",
+        "defense": 75,
+        "defense_speciale": 100
+    },
+    "grotadmorv": {
+        "id": 89,
+        "nom": "Grotadmorv",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 PV, 1 Attaque",
+        "defense": 75,
+        "defense_speciale": 100
+    },
+    "90": {
+        "id": 90,
+        "nom": "Kokiyas",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 100,
+        "defense_speciale": 25
+    },
+    "kokiyas": {
+        "id": 90,
+        "nom": "Kokiyas",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 100,
+        "defense_speciale": 25
+    },
+    "91": {
+        "id": 91,
+        "nom": "Crustabri",
+        "types": [
+            "Eau",
+            "Glace"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 180,
+        "defense_speciale": 45
+    },
+    "crustabri": {
+        "id": 91,
+        "nom": "Crustabri",
+        "types": [
+            "Eau",
+            "Glace"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 180,
+        "defense_speciale": 45
+    },
+    "92": {
+        "id": 92,
+        "nom": "Fantominus",
+        "types": [
+            "Spectre",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 30,
+        "defense_speciale": 35
+    },
+    "fantominus": {
+        "id": 92,
+        "nom": "Fantominus",
+        "types": [
+            "Spectre",
+            "Poison"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 30,
+        "defense_speciale": 35
+    },
+    "93": {
+        "id": 93,
+        "nom": "Spectrum",
+        "types": [
+            "Spectre",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 45,
+        "defense_speciale": 55
+    },
+    "spectrum": {
+        "id": 93,
+        "nom": "Spectrum",
+        "types": [
+            "Spectre",
+            "Poison"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 45,
+        "defense_speciale": 55
+    },
+    "94": {
+        "id": 94,
+        "nom": "Ectoplasma",
+        "types": [
+            "Spectre",
+            "Poison"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 60,
+        "defense_speciale": 75
+    },
+    "ectoplasma": {
+        "id": 94,
+        "nom": "Ectoplasma",
+        "types": [
+            "Spectre",
+            "Poison"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 60,
+        "defense_speciale": 75
+    },
+    "95": {
+        "id": 95,
+        "nom": "Onix",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 160,
+        "defense_speciale": 45
+    },
+    "onix": {
+        "id": 95,
+        "nom": "Onix",
+        "types": [
+            "Roche",
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 160,
+        "defense_speciale": 45
+    },
+    "96": {
+        "id": 96,
+        "nom": "Soporifik",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 45,
+        "defense_speciale": 90
+    },
+    "soporifik": {
+        "id": 96,
+        "nom": "Soporifik",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 45,
+        "defense_speciale": 90
+    },
+    "97": {
+        "id": 97,
+        "nom": "Hypnomade",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 70,
+        "defense_speciale": 115
+    },
+    "hypnomade": {
+        "id": 97,
+        "nom": "Hypnomade",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 70,
+        "defense_speciale": 115
+    },
+    "98": {
+        "id": 98,
+        "nom": "Krabby",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 90,
+        "defense_speciale": 25
+    },
+    "krabby": {
+        "id": 98,
+        "nom": "Krabby",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 90,
+        "defense_speciale": 25
+    },
+    "99": {
+        "id": 99,
+        "nom": "Krabboss",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 115,
+        "defense_speciale": 50
+    },
+    "krabboss": {
+        "id": 99,
+        "nom": "Krabboss",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 115,
+        "defense_speciale": 50
+    },
+    "100": {
+        "id": 100,
+        "nom": "Voltorbe",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 50,
+        "defense_speciale": 55
+    },
+    "voltorbe": {
+        "id": 100,
+        "nom": "Voltorbe",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 50,
+        "defense_speciale": 55
+    },
+    "101": {
+        "id": 101,
+        "nom": "Électrode",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 70,
+        "defense_speciale": 80
+    },
+    "électrode": {
+        "id": 101,
+        "nom": "Électrode",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 70,
+        "defense_speciale": 80
+    },
+    "102": {
+        "id": 102,
+        "nom": "Noeunoeuf",
+        "types": [
+            "Plante",
+            "Psy"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 80,
+        "defense_speciale": 45
+    },
+    "noeunoeuf": {
+        "id": 102,
+        "nom": "Noeunoeuf",
+        "types": [
+            "Plante",
+            "Psy"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 80,
+        "defense_speciale": 45
+    },
+    "103": {
+        "id": 103,
+        "nom": "Noadkoko",
+        "types": [
+            "Plante",
+            "Psy"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 85,
+        "defense_speciale": 75
+    },
+    "noadkoko": {
+        "id": 103,
+        "nom": "Noadkoko",
+        "types": [
+            "Plante",
+            "Psy"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 85,
+        "defense_speciale": 75
+    },
+    "104": {
+        "id": 104,
+        "nom": "Osselait",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 95,
+        "defense_speciale": 50
+    },
+    "osselait": {
+        "id": 104,
+        "nom": "Osselait",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 95,
+        "defense_speciale": 50
+    },
+    "105": {
+        "id": 105,
+        "nom": "Ossatueur",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 110,
+        "defense_speciale": 80
+    },
+    "ossatueur": {
+        "id": 105,
+        "nom": "Ossatueur",
+        "types": [
+            "Sol"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 110,
+        "defense_speciale": 80
+    },
+    "106": {
+        "id": 106,
+        "nom": "Kicklee",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 53,
+        "defense_speciale": 110
+    },
+    "kicklee": {
+        "id": 106,
+        "nom": "Kicklee",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 53,
+        "defense_speciale": 110
+    },
+    "107": {
+        "id": 107,
+        "nom": "Tygnon",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 79,
+        "defense_speciale": 110
+    },
+    "tygnon": {
+        "id": 107,
+        "nom": "Tygnon",
+        "types": [
+            "Combat"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 79,
+        "defense_speciale": 110
+    },
+    "108": {
+        "id": 108,
+        "nom": "Excelangue",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 75,
+        "defense_speciale": 75
+    },
+    "excelangue": {
+        "id": 108,
+        "nom": "Excelangue",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 75,
+        "defense_speciale": 75
+    },
+    "109": {
+        "id": 109,
+        "nom": "Smogo",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 95,
+        "defense_speciale": 45
+    },
+    "smogo": {
+        "id": 109,
+        "nom": "Smogo",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 95,
+        "defense_speciale": 45
+    },
+    "110": {
+        "id": 110,
+        "nom": "Smogogo",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 120,
+        "defense_speciale": 70
+    },
+    "smogogo": {
+        "id": 110,
+        "nom": "Smogogo",
+        "types": [
+            "Poison"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 120,
+        "defense_speciale": 70
+    },
+    "111": {
+        "id": 111,
+        "nom": "Rhinocorne",
+        "types": [
+            "Sol",
+            "Roche"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 95,
+        "defense_speciale": 30
+    },
+    "rhinocorne": {
+        "id": 111,
+        "nom": "Rhinocorne",
+        "types": [
+            "Sol",
+            "Roche"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 95,
+        "defense_speciale": 30
+    },
+    "112": {
+        "id": 112,
+        "nom": "Rhinoféros",
+        "types": [
+            "Sol",
+            "Roche"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 120,
+        "defense_speciale": 45
+    },
+    "rhinoféros": {
+        "id": 112,
+        "nom": "Rhinoféros",
+        "types": [
+            "Sol",
+            "Roche"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 120,
+        "defense_speciale": 45
+    },
+    "113": {
+        "id": 113,
+        "nom": "Leveinard",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 5,
+        "defense_speciale": 105
+    },
+    "leveinard": {
+        "id": 113,
+        "nom": "Leveinard",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 5,
+        "defense_speciale": 105
+    },
+    "114": {
+        "id": 114,
+        "nom": "Saquedeneu",
+        "types": [
+            "Plante"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 115,
+        "defense_speciale": 40
+    },
+    "saquedeneu": {
+        "id": 114,
+        "nom": "Saquedeneu",
+        "types": [
+            "Plante"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 115,
+        "defense_speciale": 40
+    },
+    "115": {
+        "id": 115,
+        "nom": "Kangourex",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "kangourex": {
+        "id": 115,
+        "nom": "Kangourex",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "116": {
+        "id": 116,
+        "nom": "Hypotrempe",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 25
+    },
+    "hypotrempe": {
+        "id": 116,
+        "nom": "Hypotrempe",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 25
+    },
+    "117": {
+        "id": 117,
+        "nom": "Hypocéan",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense, 1 Attaque Spéciale",
+        "defense": 95,
+        "defense_speciale": 45
+    },
+    "hypocéan": {
+        "id": 117,
+        "nom": "Hypocéan",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Défense, 1 Attaque Spéciale",
+        "defense": 95,
+        "defense_speciale": 45
+    },
+    "118": {
+        "id": 118,
+        "nom": "Poissirène",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 60,
+        "defense_speciale": 50
+    },
+    "poissirène": {
+        "id": 118,
+        "nom": "Poissirène",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 60,
+        "defense_speciale": 50
+    },
+    "119": {
+        "id": 119,
+        "nom": "Poissoroy",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 65,
+        "defense_speciale": 80
+    },
+    "poissoroy": {
+        "id": 119,
+        "nom": "Poissoroy",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 65,
+        "defense_speciale": 80
+    },
+    "120": {
+        "id": 120,
+        "nom": "Stari",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 55,
+        "defense_speciale": 55
+    },
+    "stari": {
+        "id": 120,
+        "nom": "Stari",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 55,
+        "defense_speciale": 55
+    },
+    "121": {
+        "id": 121,
+        "nom": "Staross",
+        "types": [
+            "Eau",
+            "Psy"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 85,
+        "defense_speciale": 85
+    },
+    "staross": {
+        "id": 121,
+        "nom": "Staross",
+        "types": [
+            "Eau",
+            "Psy"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 85,
+        "defense_speciale": 85
+    },
+    "122": {
+        "id": 122,
+        "nom": "M. Mime",
+        "types": [
+            "Psy",
+            "Fée"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 65,
+        "defense_speciale": 120
+    },
+    "m. mime": {
+        "id": 122,
+        "nom": "M. Mime",
+        "types": [
+            "Psy",
+            "Fée"
+        ],
+        "ev_yield": "2 Défense Spéciale",
+        "defense": 65,
+        "defense_speciale": 120
+    },
+    "123": {
+        "id": 123,
+        "nom": "Insécateur",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "insécateur": {
+        "id": 123,
+        "nom": "Insécateur",
+        "types": [
+            "Insecte",
+            "Vol"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 80,
+        "defense_speciale": 80
+    },
+    "124": {
+        "id": 124,
+        "nom": "Lippoutou",
+        "types": [
+            "Glace",
+            "Psy"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 35,
+        "defense_speciale": 95
+    },
+    "lippoutou": {
+        "id": 124,
+        "nom": "Lippoutou",
+        "types": [
+            "Glace",
+            "Psy"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 35,
+        "defense_speciale": 95
+    },
+    "125": {
+        "id": 125,
+        "nom": "Élektek",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 57,
+        "defense_speciale": 85
+    },
+    "élektek": {
+        "id": 125,
+        "nom": "Élektek",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 57,
+        "defense_speciale": 85
+    },
+    "126": {
+        "id": 126,
+        "nom": "Magmar",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 57,
+        "defense_speciale": 85
+    },
+    "magmar": {
+        "id": 126,
+        "nom": "Magmar",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Attaque Spéciale",
+        "defense": 57,
+        "defense_speciale": 85
+    },
+    "127": {
+        "id": 127,
+        "nom": "Scarabrute",
+        "types": [
+            "Insecte"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 100,
+        "defense_speciale": 70
+    },
+    "scarabrute": {
+        "id": 127,
+        "nom": "Scarabrute",
+        "types": [
+            "Insecte"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 100,
+        "defense_speciale": 70
+    },
+    "128": {
+        "id": 128,
+        "nom": "Tauros",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Attaque, 1 Vitesse",
+        "defense": 95,
+        "defense_speciale": 70
+    },
+    "tauros": {
+        "id": 128,
+        "nom": "Tauros",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Attaque, 1 Vitesse",
+        "defense": 95,
+        "defense_speciale": 70
+    },
+    "129": {
+        "id": 129,
+        "nom": "Magicarpe",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 55,
+        "defense_speciale": 20
+    },
+    "magicarpe": {
+        "id": 129,
+        "nom": "Magicarpe",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "1 Vitesse",
+        "defense": 55,
+        "defense_speciale": 20
+    },
+    "130": {
+        "id": 130,
+        "nom": "Léviator",
+        "types": [
+            "Eau",
+            "Vol"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 79,
+        "defense_speciale": 100
+    },
+    "léviator": {
+        "id": 130,
+        "nom": "Léviator",
+        "types": [
+            "Eau",
+            "Vol"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 79,
+        "defense_speciale": 100
+    },
+    "131": {
+        "id": 131,
+        "nom": "Lokhlass",
+        "types": [
+            "Eau",
+            "Glace"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 80,
+        "defense_speciale": 95
+    },
+    "lokhlass": {
+        "id": 131,
+        "nom": "Lokhlass",
+        "types": [
+            "Eau",
+            "Glace"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 80,
+        "defense_speciale": 95
+    },
+    "132": {
+        "id": 132,
+        "nom": "Métamorph",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 48,
+        "defense_speciale": 48
+    },
+    "métamorph": {
+        "id": 132,
+        "nom": "Métamorph",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 PV",
+        "defense": 48,
+        "defense_speciale": 48
+    },
+    "133": {
+        "id": 133,
+        "nom": "Évoli",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 50,
+        "defense_speciale": 65
+    },
+    "évoli": {
+        "id": 133,
+        "nom": "Évoli",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Défense Spéciale",
+        "defense": 50,
+        "defense_speciale": 65
+    },
+    "134": {
+        "id": 134,
+        "nom": "Aquali",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 60,
+        "defense_speciale": 95
+    },
+    "aquali": {
+        "id": 134,
+        "nom": "Aquali",
+        "types": [
+            "Eau"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 60,
+        "defense_speciale": 95
+    },
+    "135": {
+        "id": 135,
+        "nom": "Voltali",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 60,
+        "defense_speciale": 95
+    },
+    "voltali": {
+        "id": 135,
+        "nom": "Voltali",
+        "types": [
+            "Électrik"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 60,
+        "defense_speciale": 95
+    },
+    "136": {
+        "id": 136,
+        "nom": "Pyroli",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 60,
+        "defense_speciale": 110
+    },
+    "pyroli": {
+        "id": 136,
+        "nom": "Pyroli",
+        "types": [
+            "Feu"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 60,
+        "defense_speciale": 110
+    },
+    "137": {
+        "id": 137,
+        "nom": "Porygon",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 75
+    },
+    "porygon": {
+        "id": 137,
+        "nom": "Porygon",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "1 Attaque Spéciale",
+        "defense": 70,
+        "defense_speciale": 75
+    },
+    "138": {
+        "id": 138,
+        "nom": "Amonita",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 100,
+        "defense_speciale": 55
+    },
+    "amonita": {
+        "id": 138,
+        "nom": "Amonita",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 100,
+        "defense_speciale": 55
+    },
+    "139": {
+        "id": 139,
+        "nom": "Amonistar",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 125,
+        "defense_speciale": 70
+    },
+    "amonistar": {
+        "id": 139,
+        "nom": "Amonistar",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "2 Défense",
+        "defense": 125,
+        "defense_speciale": 70
+    },
+    "140": {
+        "id": 140,
+        "nom": "Kabuto",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 90,
+        "defense_speciale": 45
+    },
+    "kabuto": {
+        "id": 140,
+        "nom": "Kabuto",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "1 Défense",
+        "defense": 90,
+        "defense_speciale": 45
+    },
+    "141": {
+        "id": 141,
+        "nom": "Kabutops",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 105,
+        "defense_speciale": 70
+    },
+    "kabutops": {
+        "id": 141,
+        "nom": "Kabutops",
+        "types": [
+            "Roche",
+            "Eau"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 105,
+        "defense_speciale": 70
+    },
+    "142": {
+        "id": 142,
+        "nom": "Ptéra",
+        "types": [
+            "Roche",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 65,
+        "defense_speciale": 75
+    },
+    "ptéra": {
+        "id": 142,
+        "nom": "Ptéra",
+        "types": [
+            "Roche",
+            "Vol"
+        ],
+        "ev_yield": "2 Vitesse",
+        "defense": 65,
+        "defense_speciale": 75
+    },
+    "143": {
+        "id": 143,
+        "nom": "Ronflex",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 65,
+        "defense_speciale": 110
+    },
+    "ronflex": {
+        "id": 143,
+        "nom": "Ronflex",
+        "types": [
+            "Normal"
+        ],
+        "ev_yield": "2 PV",
+        "defense": 65,
+        "defense_speciale": 110
+    },
+    "144": {
+        "id": 144,
+        "nom": "Artikodin",
+        "types": [
+            "Glace",
+            "Vol"
+        ],
+        "ev_yield": "3 Défense Spéciale",
+        "defense": 100,
+        "defense_speciale": 125
+    },
+    "artikodin": {
+        "id": 144,
+        "nom": "Artikodin",
+        "types": [
+            "Glace",
+            "Vol"
+        ],
+        "ev_yield": "3 Défense Spéciale",
+        "defense": 100,
+        "defense_speciale": 125
+    },
+    "145": {
+        "id": 145,
+        "nom": "Électhor",
+        "types": [
+            "Électrik",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 85,
+        "defense_speciale": 90
+    },
+    "électhor": {
+        "id": 145,
+        "nom": "Électhor",
+        "types": [
+            "Électrik",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 85,
+        "defense_speciale": 90
+    },
+    "146": {
+        "id": 146,
+        "nom": "Sulfura",
+        "types": [
+            "Feu",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 90,
+        "defense_speciale": 85
+    },
+    "sulfura": {
+        "id": 146,
+        "nom": "Sulfura",
+        "types": [
+            "Feu",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 90,
+        "defense_speciale": 85
+    },
+    "147": {
+        "id": 147,
+        "nom": "Minidraco",
+        "types": [
+            "Dragon"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 45,
+        "defense_speciale": 50
+    },
+    "minidraco": {
+        "id": 147,
+        "nom": "Minidraco",
+        "types": [
+            "Dragon"
+        ],
+        "ev_yield": "1 Attaque",
+        "defense": 45,
+        "defense_speciale": 50
+    },
+    "148": {
+        "id": 148,
+        "nom": "Draco",
+        "types": [
+            "Dragon"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 65,
+        "defense_speciale": 70
+    },
+    "draco": {
+        "id": 148,
+        "nom": "Draco",
+        "types": [
+            "Dragon"
+        ],
+        "ev_yield": "2 Attaque",
+        "defense": 65,
+        "defense_speciale": 70
+    },
+    "149": {
+        "id": 149,
+        "nom": "Dracolosse",
+        "types": [
+            "Dragon",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 95,
+        "defense_speciale": 100
+    },
+    "dracolosse": {
+        "id": 149,
+        "nom": "Dracolosse",
+        "types": [
+            "Dragon",
+            "Vol"
+        ],
+        "ev_yield": "3 Attaque",
+        "defense": 95,
+        "defense_speciale": 100
+    },
+    "150": {
+        "id": 150,
+        "nom": "Mewtwo",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 90,
+        "defense_speciale": 90
+    },
+    "mewtwo": {
+        "id": 150,
+        "nom": "Mewtwo",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "3 Attaque Spéciale",
+        "defense": 90,
+        "defense_speciale": 90
+    },
+    "151": {
+        "id": 151,
+        "nom": "Mew",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 100,
+        "defense_speciale": 100
+    },
+    "mew": {
+        "id": 151,
+        "nom": "Mew",
+        "types": [
+            "Psy"
+        ],
+        "ev_yield": "3 PV",
+        "defense": 100,
+        "defense_speciale": 100
+    }
+}

@@ -280,7 +280,7 @@ btn_shiny = tk.Button(
 btn_shiny.place(x=36+160-22, y=38+275)
 
 fiche_bg = tk.Frame(mainzone, bg="white", bd=2, relief="groove")
-fiche_bg.place(x=350, y=38, width=530, height=246)
+fiche_bg.place(x=350, y=38, width=530, height=320)
 
 label_nom = tk.Label(fiche_bg, text="", font=("Segoe UI", 21, "bold"), bg="white", fg="#3a3c68")
 label_nom.place(x=20, y=10)
@@ -290,9 +290,9 @@ label_num.place(x=20, y=52)
 frame_types = tk.Frame(fiche_bg, bg="white")
 frame_types.place(x=20, y=90)
 label_def = tk.Label(fiche_bg, text="", font=("Segoe UI", 15), bg="white", fg="#1d3454")
-label_def.place(x=260, y=70)
+label_def.place(x=510, y=20, anchor="ne")
 label_defspe = tk.Label(fiche_bg, text="", font=("Segoe UI", 15), bg="white", fg="#338b8b")
-label_defspe.place(x=260, y=110)
+label_defspe.place(x=510, y=50, anchor="ne")
 frame_match = tk.Frame(fiche_bg, bg="white")
 frame_match.place(x=20, y=130)
 
@@ -466,7 +466,7 @@ def add_placeholder(event=None):
 # Localisations PokéMMO
 cadre_loc = tk.LabelFrame(mainzone, text="📍 Localisations PokéMMO", bg="#e3f1fa", fg="#29677b",
                          font=("Segoe UI", 13, "bold"), bd=2, relief="groove")
-cadre_loc.place(x=36, y=370, width=845, height=185)
+cadre_loc.place(x=36, y=444, width=845, height=185)
 txt_loc = tk.Text(
     cadre_loc, width=104, height=7, font=("Consolas", 10),
     bg="#ecfaff", fg="#073851", bd=0, relief="flat", wrap="word"
@@ -475,7 +475,7 @@ txt_loc.pack(padx=8, pady=8)
 txt_loc.config(state='disabled')
 
 searchbox = tk.Entry(mainzone, font=("Segoe UI", 14), width=24, fg="#888")
-searchbox.place(x=350, y=300)
+searchbox.place(x=350, y=374)
 searchbox.insert(0, "🔍 Rechercher par nom ou numéro...")
 searchbox.bind("<FocusIn>", clear_placeholder)
 searchbox.bind("<FocusOut>", add_placeholder)
@@ -483,34 +483,34 @@ searchbox.bind("<Return>", search_poke)
 
 # Affichage position/total
 label_pos = tk.Label(mainzone, text="", font=("Segoe UI", 11, "bold"), bg="#E4ECF9", fg="#496B9A")
-label_pos.place(x=650, y=300)
+label_pos.place(x=650, y=374)
 
 # Boutons navigation améliorés
 btn_first = tk.Button(
     mainzone, text="⏮ Premier", font=("Segoe UI", 11),
     bg="#eaeaff", command=first_poke, width=10
 )
-btn_first.place(x=350, y=340)
+btn_first.place(x=350, y=414)
 btn_prev = tk.Button(
     mainzone, text="⟵ Précédent", font=("Segoe UI", 11),
     bg="#eaeaff", command=prev_poke, width=12
 )
-btn_prev.place(x=460, y=340)
+btn_prev.place(x=460, y=414)
 btn_next = tk.Button(
     mainzone, text="Suivant ⟶", font=("Segoe UI", 11),
     bg="#eaeaff", command=next_poke, width=12
 )
-btn_next.place(x=600, y=340)
+btn_next.place(x=600, y=414)
 btn_last = tk.Button(
     mainzone, text="Dernier ⏭", font=("Segoe UI", 11),
     bg="#eaeaff", command=last_poke, width=10
 )
-btn_last.place(x=720, y=340)
+btn_last.place(x=720, y=414)
 btn_random = tk.Button(
     mainzone, text="🎲 Aléatoire", font=("Segoe UI", 11),
     bg="#ffe7b7", command=random_poke, width=12
 )
-btn_random.place(x=820, y=300)
+btn_random.place(x=820, y=374)
 
 # Effet hover sur bouton shiny
 def on_shiny_enter(e):
@@ -531,12 +531,12 @@ btn_lien = tk.Button(
     mainzone, text="🌐 Ouvrir la fiche complète PokéMMO shoutwiki", font=("Segoe UI", 11),
     bg="#bfeae5", command=open_shoutwiki, relief="groove"
 )
-btn_lien.place(x=350, y=380)
+btn_lien.place(x=350, y=454)
 btn_types = tk.Button(
     mainzone, text="ℹ️ Tableau des types", font=("Segoe UI", 11),
     bg="#d5e9ff", command=open_type_info, relief="groove"
 )
-btn_types.place(x=610, y=380)
+btn_types.place(x=610, y=454)
 
 root.bind("<Right>", next_poke)
 root.bind("<Left>", prev_poke)

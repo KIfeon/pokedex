@@ -142,24 +142,11 @@ def telecharger_pokedex():
         nom_en = d["name"].capitalize()
         nom_fr = next((fr for fr, en in mapping_fr_en.items() if en == nom_en), nom_en)
         types = [t['type']['name'].capitalize() for t in d['types']]
-        ev_dict = {}
-        for stat in d["stats"]:
-            if stat["effort"] > 0:
-                cle = {
-                    "hp": "PV",
-                    "attack": "Attaque",
-                    "defense": "Défense",
-                    "special-attack": "Spécial Attaque",
-                    "special-defense": "Spécial Défense",
-                    "speed": "Vitesse"
-                }[stat['stat']['name']]
-                ev_dict[cle] = stat["effort"]
         poke_dico = {
             "num": d["id"],
             "nom_fr": nom_fr,
             "nom_en": nom_en,
             "type": types,
-            "ev": ev_dict,
             "defense": d["stats"][2]["base_stat"],
             "defense_spe": d["stats"][4]["base_stat"],
             "img_url": d["sprites"]["other"]["official-artwork"]["front_default"],
@@ -306,10 +293,8 @@ label_def = tk.Label(fiche_bg, text="", font=("Segoe UI", 15), bg="white", fg="#
 label_def.place(x=260, y=70)
 label_defspe = tk.Label(fiche_bg, text="", font=("Segoe UI", 15), bg="white", fg="#338b8b")
 label_defspe.place(x=260, y=110)
-label_ev = tk.Label(fiche_bg, text="", font=("Calibri", 12), bg="white", fg="#8B5664", wraplength=210, justify="left")
-label_ev.place(x=260, y=150)
 frame_match = tk.Frame(fiche_bg, bg="white")
-frame_match.place(x=260, y=190)
+frame_match.place(x=20, y=130)
 
 # Sous-frames pour les différentes catégories de matchups
 frame_match_immu = tk.Frame(frame_match, bg="white")
@@ -402,8 +387,6 @@ def show_poke():
 
     label_def.config(text=f"Défense : {poke['defense']}")
     label_defspe.config(text=f"Déf. Spé. : {poke['defense_spe']}")
-    ev_str = ', '.join([f"{k} +{v}" for k, v in poke["ev"].items()]) if poke["ev"] else "-"
-    label_ev.config(text=f"EV donnés: {ev_str}")
 
     for fr in [frame_match_immu, frame_match_dres, frame_match_res, frame_match_dfaib, frame_match_faib]:
         for wid in fr.winfo_children():

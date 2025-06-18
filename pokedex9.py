@@ -308,8 +308,20 @@ label_defspe = tk.Label(fiche_bg, text="", font=("Segoe UI", 15), bg="white", fg
 label_defspe.place(x=260, y=110)
 label_ev = tk.Label(fiche_bg, text="", font=("Calibri", 12), bg="white", fg="#8B5664", wraplength=210, justify="left")
 label_ev.place(x=260, y=150)
-label_match = tk.Label(fiche_bg, text="", font=("Calibri", 12), bg="white", fg="#465a8b", wraplength=210, justify="left")
-label_match.place(x=260, y=190)
+frame_match = tk.Frame(fiche_bg, bg="white")
+frame_match.place(x=260, y=190)
+
+# Sous-frames pour les différentes catégories de matchups
+frame_match_immu = tk.Frame(frame_match, bg="white")
+frame_match_immu.pack(anchor="w")
+frame_match_dres = tk.Frame(frame_match, bg="white")
+frame_match_dres.pack(anchor="w")
+frame_match_res = tk.Frame(frame_match, bg="white")
+frame_match_res.pack(anchor="w")
+frame_match_dfaib = tk.Frame(frame_match, bg="white")
+frame_match_dfaib.pack(anchor="w")
+frame_match_faib = tk.Frame(frame_match, bg="white")
+frame_match_faib.pack(anchor="w")
 
 def txt_color(bg):
     if bg.startswith("#"):
@@ -392,19 +404,32 @@ def show_poke():
     label_defspe.config(text=f"Déf. Spé. : {poke['defense_spe']}")
     ev_str = ', '.join([f"{k} +{v}" for k, v in poke["ev"].items()]) if poke["ev"] else "-"
     label_ev.config(text=f"EV donnés: {ev_str}")
+
+    for fr in [frame_match_immu, frame_match_dres, frame_match_res, frame_match_dfaib, frame_match_faib]:
+        for wid in fr.winfo_children():
+            wid.destroy()
+
     matchs = calc_matchups(poke["type"])
-    txt = ""
-    if matchs["immunite"]:
-        txt += "Immunités : " + ", ".join(matchs["immunite"]) + "\n"
-    if matchs["double_res"]:
-        txt += "Double rés. : " + ", ".join(matchs["double_res"]) + "\n"
-    if matchs["res"]:
-        txt += "Résistances : " + ", ".join(matchs["res"]) + "\n"
-    if matchs["double_faib"]:
-        txt += "Double faiblesse : " + ", ".join(matchs["double_faib"]) + "\n"
-    if matchs["faib"]:
-        txt += "Faiblesses : " + ", ".join(matchs["faib"])
-    label_match.config(text=txt.strip())
+
+    def fill_frame(fr, title, types):
+        if not types:
+            return
+        tk.Label(fr, text=title, font=("Calibri", 12, "bold"), bg="white", fg="#465a8b").pack(side="left")
+        for t in types:
+            imgtype = get_type_icon_img(t)
+            if imgtype:
+                lbl = tk.Label(fr, image=imgtype, bg="white")
+                lbl.image = imgtype
+                lbl.pack(side="left", padx=2)
+            else:
+                tk.Label(fr, text=t, bg="#ffbcbc", fg="black", font=("Calibri", 12, "bold"),
+                         padx=4, pady=2, borderwidth=1, relief="ridge").pack(side="left", padx=2)
+
+    fill_frame(frame_match_immu, "Immunités :", matchs["immunite"])
+    fill_frame(frame_match_dres, "Double rés. :", matchs["double_res"])
+    fill_frame(frame_match_res, "Résistances :", matchs["res"])
+    fill_frame(frame_match_dfaib, "Double faiblesse :", matchs["double_faib"])
+    fill_frame(frame_match_faib, "Faiblesses :", matchs["faib"])
 
     # Image Pokémon principale
     zone_img.delete("pokeimg")
